@@ -17,7 +17,7 @@ const Navigationbar = () => {
     window.location.href = "/login";
   }
   return (
-    <Router basename="/jwt-auth-crud-frontend.onrender.com">
+    <Router>
       {/* <div className=""> */}
       <nav className="flex w-full py-3 gap-2 text-center font-bold bg-slate-950 bg-opacity-15">
         { !isAuthenticated && (
