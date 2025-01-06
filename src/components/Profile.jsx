@@ -66,7 +66,7 @@ const Profile = () => {
   return (
     <div className='flex flex-col mx-2 mt-10 h-3/4 w-full items-center bg-sky-800 bg-opacity-60 rounded-md shadow-2xl'>
       <h1 className='font-sans text-cyan-950 text-3xl font-extrabold my-10 animate-bounce'>{user.fullName} Profile</h1>
-      <form className="flex flex-col gap-y-5 mb-10 mx-10" onSubmit={saveProfile}>
+      <form className="flex flex-col gap-y-5 mb-10 mx-7 md:mx-10" onSubmit={saveProfile}>
         <TextField
           label="Full Name"
           type="text"

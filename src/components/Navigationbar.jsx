@@ -41,19 +41,19 @@ const Navigationbar = () => {
         isAuthenticated && (
           <>
             <Link
-          className="bg-gradient-to-tr from-blue-400 to-teal-200 w-2/12 mx-3 h-10 rounded-2xl hover:from-blue-500 hover:to-teal-400"
+          className="bg-gradient-to-tr from-blue-400 to-teal-200 w-2/12 mx-3 h-10 rounded-2xl text-sm hover:from-blue-500 hover:to-teal-400"
           to="/product"
         >
           Product
         </Link>
         <Link
-          className="bg-gradient-to-tr from-blue-400 to-teal-200 w-2/12 mx-3 h-10 rounded-2xl hover:from-blue-500 hover:to-teal-400"
+          className="bg-gradient-to-tr from-blue-400 to-teal-200 w-2/12 mx-3 h-10 rounded-2xl text-sm hover:from-blue-500 hover:to-teal-400"
           to="/profile"
         >
           Profile
         </Link>
         <Link
-          className="bg-gradient-to-tr from-blue-400 to-teal-200 w-2/12 mx-3 h-10 rounded-2xl hover:from-blue-500 hover:to-teal-400"
+          className="bg-gradient-to-tr from-blue-400 to-teal-200 w-2/12 mx-3 h-10 rounded-2xl text-sm hover:from-blue-500 hover:to-teal-400"
           onClick={handleLogout}
         >
           Logout
